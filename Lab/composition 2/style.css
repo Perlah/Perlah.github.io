@@ -1,6 +1,10 @@
-
+body{
+   /* background-image: url(background.jpeg);*/
+   background-color: #99FFCC;
+}
 h1 {
     text-shadow: 2px 2px 5px red;
+    font-size: 70px;
 }
 #intro {
 
@@ -13,26 +17,54 @@ h1 {
 	color: #999999;
 	font-size: 20px;
 }
+.indent{
+     font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left:40px;
+     color: #999999;
+}
 div {
-   width: 200px;
+    width: 200px;
     height: 100px;
-    background-color: red;
+    background: blue;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+div:hover {
+    width: 500px;
+}
+
+#div1 {
+    width: 200px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+#div1:hover {
+    width: 700px;
+}
+
+#div2 {
+    width: 100px;
+    height: 150px;
+    background-color: #A3A3CC;
+    font-weight: bold;
     position: relative;
-    -webkit-animation-name: example; 
-    -webkit-animation-duration: 4s; 
-    animation-name: test;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+#div2 {-webkit-animation-timing-function: ease;}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
 }
 
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-   
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
 }
-
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-
-  }
+#div2:hover {
+    width: 700px;

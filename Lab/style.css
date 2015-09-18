@@ -1,0 +1,12 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    background-color:#CCCCFF;
+}
+p{
+    text-align: left;
+    text-indent: 50px;
+    white-space: pre-wrap;
+}
