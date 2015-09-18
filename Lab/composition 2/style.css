@@ -1,0 +1,38 @@
+
+h1 {
+    text-shadow: 2px 2px 5px red;
+}
+#intro {
+
+  font-size: 100px;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.normal {
+	color: #999999;
+	font-size: 20px;
+}
+div {
+   width: 200px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+   
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+
+  }
