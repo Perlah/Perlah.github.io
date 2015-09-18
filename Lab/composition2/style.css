@@ -10,7 +10,7 @@ h1 {
 
   font-size: 100px;
   margin-bottom: 10px;
-  color: blue;
+  color: black;
 }
 
 .normal {
@@ -38,7 +38,7 @@ div:hover {
 #div1 {
     width: 200px;
     height: 100px;
-    background: red;
+    background: #4775D1;
     -webkit-transition: width 2s;
     transition: width 2s;
 }
@@ -49,7 +49,7 @@ div:hover {
 #div2 {
     width: 100px;
     height: 150px;
-    background-color: #A3A3CC;
+    background-color: #99B2E6;
     font-weight: bold;
     position: relative;
     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
