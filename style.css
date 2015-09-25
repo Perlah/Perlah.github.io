@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    color: white;
+}
+body{
+    font-family:Indie Flower;
+    font-size: 15px;
+    background-color: #660000;
+}
+
+p{
+    color: White;
+}
+
+a:link{ color: white;}
+a:visited{color:red;}
+a:hover{color: blue;}
+a:active{color: green;}
+
+.non-white-link:link{color: black;}
+.non-white-link:visited{color: black;}
+.non-white-link:hover{color: white;}
+.non-white-link:active{color: yellow;}
