@@ -1,0 +1,76 @@
+h1{
+    font-size: 50px;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+}
+img{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #19FFD1;
+}
+
+video{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.Img1{
+    position: absolute;
+    
+}
+
+.Img2{
+    position: absolute;
+    left: 1300px;
+}
+
+.video1{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+
+.video2{
+    position: absolute;
+    top: 600px;
+    left: 1100px;
+}
+
+.Img3{
+    position: absolute;
+    top: 950px;
+    left: 1320;
+}
+
+.Img4{
+    position: absolute;
+    top: 950px;
+    left: 1100;
+}
+
+.Img6{
+    position: absolute;
+    top: 950px;
+    left: 263;
+}
+
+.Img7{
+    position: absolute;
+    top: 950px;
+    left: 680;
+}
+
+.Img5{
+    position: absolute;
+    top: 1300;
+    left: 670;
+}
