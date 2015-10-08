@@ -1,34 +1,7 @@
-img {
-    border-style: solid;
-    border-color: #000000;
-    margin: 10px;
-
-}
-
-
 h1{
     font-size: 50px;
     font-family: 'Cabin Sketch', cursive;
     text-align: center;
-}
-
-p{
-    font-size: 20px;
-    animation-duration: 3s;
-  animation-name: slidein;
-  -webkit-animation-timing-function: ease-in;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 a:hover {
@@ -45,18 +18,64 @@ video{
     margin: 10px;
     position: absolute;
     top:1460px;
-    left: 520px;
+    left: 480px;
     
 }
-
+.Img{
+    position: absolute;
+    border-style: solid;
+    border-color: #000000;
+    margin: 10px;
+}
 .img2{
+    border-style: solid;
+    border-color: #000000;
+    margin: 10px;
     position: absolute;
     top: 1018px;
     left: 900px;
 }
-
 .img3{
+    border-style: solid;
+    border-color: #000000;
+    margin: 10px;
     position: absolute;
     top: 608px;
     left: 500px;
+}
+
+.circle{
+    position: absolute;
+    top: 1470px;
+    left: 1050px;
+}
+.circle3{
+    position: absolute;
+    top: 1040px;
+    left: 850px;
+}
+.circle4{
+    position: absolute;
+    top: 170px;
+    left: 550px;
+}
+.circle5{
+    position: absolute;
+    top: 630px;
+    left: 450px;
+}
+.circle6{
+    position: absolute;
+     top: 470px;
+    left: 550px;
+}
+.circle7{
+    position: absolute;
+    top: 930px;
+    left: 450px;
+}
+.circle8{
+    position: absolute;
+    top: 50px;
+    left: 350px;
 }

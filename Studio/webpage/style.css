@@ -1,5 +1,3 @@
-
-
 .wrapper{
   width: 30px;
   height: 30px;
@@ -44,16 +42,20 @@ div:hover {
     left: 300px;
 }
 
-
 h1{
     font-size: 50px;
     text-align: center;
+    font-family: helvetica,arial;
+    color: white;
    /* font-family: 'Cabin Sketch', cursive;*/
 }
-
-img{
-    position: Static;
+html{
+    background-color: black;
 }
+/*img{
+    position: absolute;
+    text-align: center;
+}*/
 
 a:link{
     color: #000000;

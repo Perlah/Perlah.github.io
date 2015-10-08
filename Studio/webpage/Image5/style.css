@@ -3,3 +3,97 @@ h1{
     font-family: 'Cabin Sketch', cursive;
     text-align: center;
 }
+
+.Img1{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 192px;
+    left: 100px;
+}
+.Img2{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top:192px;
+    left:800px;
+}
+.Img3{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+.Img4{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+}
+.Img5{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 1100px;
+    left: 100;
+}
+.Img6{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 1100px;
+    left: 800;
+}
+
+.circle{
+  position:absolute;
+  top: 280px;
+  left: 590px;
+}
+.circle2{
+    position:absolute;
+    top: 1200px;
+    left: 590px;
+}
+.circle3{
+    position:absolute;
+    top: 400px;
+    left: 590px;
+}
+.circle4{
+    position:absolute;
+    top: 900px;
+    left: 590px;
+}
+.circle5{
+    position:absolute;
+    top: 1050px;
+    left: 590px;
+}
+.circle7{
+    position:absolute;
+    top: 1050px;
+    left: 590px;
+}
+.circle8{
+    position:absolute;
+    top: 170px;
+    left: 590px;
+}
+
+.video{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 460px;
+    left: 330px;
+}

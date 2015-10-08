@@ -3,20 +3,12 @@ h1{
     font-family: 'Cabin Sketch', cursive;
     text-align: center;
 }
-img{
-    margin: 10px;
-    border-style: solid;
-    border-color: #000000;
-}
-
 a:hover {
     color: #FFFFFF;
 }
-
 a:visited {
     color: #19FFD1;
 }
-
 video{
     float: right;
     margin: 10px;
@@ -25,6 +17,72 @@ video{
 }
 
 .Img1{
-    top: 500px;
-    left: 500px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 510px;
+    left: 950px;
+}
+.img2{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 200px;
+}
+.Img3{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+    top: 1080px;
+    left: 85px;
+}
+
+.video1{
+    position: absolute;
+    top: 1360px;
+    left:510px;
+}
+.video2{
+    position: absolute;
+    top: 760px;
+    left:400px;
+}
+
+.circle{
+    position: absolute;
+    top: 1640px;
+    left: 1250px;
+}
+.circle2{
+    position:absolute;
+    top: 1320px;
+    left: 1000px;
+}
+.circle3{
+    position: absolute;
+    top: 470px;
+    left: 1100px;
+}
+.circle5{
+    position: absolute;
+    top: 720px;
+    left: 400px;
+}
+.circle6{
+    position: absolute;
+     top: 470px;
+    left: 960px;
+}
+.circle7{
+    position: absolute;
+    top: 1040px;
+    left: 100px;
+}
+.circle8{
+    position: absolute;
+    top: 60px;
+    left: 350px;
 }

@@ -16,8 +16,87 @@ a:visited {
     color: #19FFD1;
 }
 
-img{
+.img1{
+    position: absolute;
+    top: 200px;
     border-style: solid;
     border-color: #000000;
     margin:10px;
+}
+.img2{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    border-style: solid;
+    border-color: #000000;
+    margin:10px;
+}
+.img3{
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    border-style: solid;
+    border-color: #000000;
+    margin:10px;
+}
+.img4{
+    position: absolute;
+    top: 550px;
+    border-style: solid;
+    border-color: #000000;
+    margin:10px;
+}
+.img5{
+    position: absolute;
+    top: 550px;
+    left: 350;
+    border-style: solid;
+    border-color: #000000;
+    margin:10px;
+}
+.img6{
+    position: absolute;
+    top: 1000px;
+     left: 10px;
+    border-style: solid;
+    border-color: #000000;
+    margin:10px;
+}
+
+
+
+.circle{
+    position: absolute;
+    top: 1470px;
+    left: 1150px;
+}
+.circle2{
+    position: absolute;
+    top: 600px;
+    left: 1150px;
+}
+.circle4{
+    position: absolute;
+    top: 220px;
+    left: 1150px;
+}
+.circle5{
+    position: absolute;
+    top: 800px;
+    left: 1150px;
+}
+.circle6{
+    position: absolute;
+     top: 400px;
+    left: 1150px;
+}
+.circle7{
+    position: absolute;
+    top: 1100px;
+    left: 1150px;
+}
+.circle8{
+    position: absolute;
+    top: 50px;
+    left: 350px;
 }

@@ -3,3 +3,71 @@ h1{
     font-family: 'Cabin Sketch', cursive;
     text-align: center;
 }
+.wrapper{
+    margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;
+}
+.Img{
+    top: 150px;
+}
+.Img2{
+    top: 150px;
+    left: 570px;
+}
+.Img3{
+    top: 150px;
+    left: 1060px;
+}
+.Img4{
+    top: 480px;
+}
+.Img5{
+    top: 480px;
+    left: 310px;
+}
+
+.video{
+  margin: 10px;
+    border-style: solid;
+    border-color: #000000;
+    position: absolute;   
+    top: 800px;
+}
+
+.circle{
+    position: absolute;
+    top: 1120px;
+    left: 10px;
+}
+.circle3{
+    position: absolute;
+    top: 750px;
+    left: 750px;
+}
+.circle4{
+    position: absolute;
+    top: 490px;
+    left: 750px;
+}
+.circle5{
+    position: absolute;
+    top: 810px;
+    left: 580px;
+}
+.circle6{
+    position: absolute;
+     top: 490px;
+    left: 1250px;
+}
+.circle2{
+    position: absolute;
+    top: 1070px;
+    left: 580px;
+}
+.circle8{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
