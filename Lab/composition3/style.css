@@ -1,27 +1,8 @@
-h1 {
-    text-shadow: 2px 2px 5px white;
-    font-size: 70px;
-    font-family:'Arvo', serif;
+html{
+    background-color: black;
 }
 
-.wrapper{
-    width: 800;
-    margin:0 auto;
-}
-
-
-body{
-  background-image: url("photos/OldPaper.png");
-   background-color: #CCCCFF;
-}
-.box{
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 200px;
-}
-
-img {
+/*img {
     opacity: 0.4;
     filter: alpha(opacity=40); 
 }
@@ -29,4 +10,4 @@ img {
 img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
-}
+}*/
