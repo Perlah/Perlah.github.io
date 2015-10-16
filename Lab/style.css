@@ -1,12 +1,18 @@
 h1{
-    font-size: 50px;
+    font-size: 90px;
     text-align: center;
+    font-family:Indie Flower;
+}
+h2{
+    font-family:Indie Flower;
+    text-align:center;
 }
 body{
     background-color:#CCCCFF;
 }
 p{
-    text-align: left;
+    text-align: center;
     text-indent: 50px;
     white-space: pre-wrap;
+    
 }
