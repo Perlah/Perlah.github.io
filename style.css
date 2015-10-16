@@ -1,5 +1,5 @@
 h1{
-    font-size: 50px;
+    font-size: 100px;
 }
 h2{
     color: white;
@@ -8,6 +8,7 @@ h2{
 body{
     font-family:Indie Flower;
     font-size: 15px;
+    text-align: center;
     background-color: #660000;
 }
 
