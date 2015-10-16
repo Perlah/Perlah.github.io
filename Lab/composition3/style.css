@@ -1,81 +1,83 @@
 html{
-    background-color: black;
+    background-color:#CCCCCC;
 }
 
-.whitecircle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.circle {
-    width: 660px;
-    height: 660px;
-    border-radius: 660px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: red;
-}
 
-.circle2 {
+.wrapper{
     width: 155px;
     height: 155px;
     border-radius:155px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: yellow;
     transform: translate(-50%, -50%);
+}
+.circle {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    background-color: red;
+}
+.circle2 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    background-color: yellow;
 }
 .circle3{
-     width: 250px;
-    height: 250px;
-    border-radius:250px;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     background-color: Green;
-    transform: translate(-50%, -50%);
 }
 .circle4{
-    width: 360px;
-    height: 360px;
-    border-radius: 360px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 80%;
+    left: 70%;
     background-color: #00FFFF;
-    transform: translate(-50%, -50%);
+    
 }
 .circle5{
-    width: 460px;
-    height: 460px;
-    border-radius: 460px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 75%;
     background-color: Blue;
-    transform: translate(-50%, -50%);
+    
 }
 .circle6{
-    width: 560px;
-    height: 560px;
-    border-radius: 560px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 69%;
     background-color: Magenta;
-    transform: translate(-50%, -50%);
+   
 }
 .circle7{
-     width: 100px;
-    height: 100px;
-    border-radius: 100px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 24%;
     background-color: white;
+    
+}
+.circle8{
+     position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: black;
+    
+}
+
+.color{
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+    top: 10%;
+    left: 50%; 
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+.color2{
+     width: 20px;
+    height:20px;
+    border-radius: 20px;
+    top: 10%;
+    left: 60%; 
+    background-color: black;
     transform: translate(-50%, -50%);
 }
