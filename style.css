@@ -19,7 +19,7 @@ p{
 a:link{ color: white;}
 a:visited{color:red;}
 a:hover{color: blue;
-    background-color: yellow;
+    background-color: #E06666;
 }
 a:active{color: green;}
 
