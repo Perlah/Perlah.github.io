@@ -73,6 +73,8 @@ html{
     left: 75%; 
     background-color: #546C7E;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 .color2{
     width: 50px;
@@ -83,6 +85,8 @@ html{
     left: 75%;
     background-color: #C0D6D5;
     transform: translate(-50%, -50%);
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*cyan*/
@@ -95,6 +99,8 @@ html{
     top: 80%;
     left: 70%;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 .color4{
      width: 50px;
@@ -105,6 +111,8 @@ html{
     top: 80%;
     left: 70%;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*green*/
@@ -117,6 +125,8 @@ html{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*blue*/
@@ -129,6 +139,8 @@ html{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*black*/
@@ -141,6 +153,8 @@ html{
     top: 20%;
     left: 30%;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*red*/
@@ -153,6 +167,8 @@ html{
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+      -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 .color9{
     width: 100px;
@@ -162,7 +178,9 @@ html{
     background-color: #DD0000;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*white*/
@@ -175,6 +193,8 @@ html{
     left: 24%;
     background-color: #EDEDED;
     transform: translate(-50%, -50%);
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 .color11{
     width: 165px;
@@ -185,6 +205,8 @@ html{
     left: 24%;
     background-color: #FBFAFA;
     transform: translate(-50%, -50%);
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
 
 /*red*/
@@ -197,11 +219,14 @@ html{
     left: 50%;
     background-color: #82191E;
     transform: translate(-50%, -50%);
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
 }
+
 
 /*yellow*/
 .color13{
-     width: 120px;
+    width: 120px;
     height: 120px;
     border-radius: 120px;
     position: absolute;
@@ -209,4 +234,11 @@ html{
     left: 30%;
     background-color: #FFFF60;
     transform: translate(-50%, -50%);
+     -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
+}
+div:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
 }
