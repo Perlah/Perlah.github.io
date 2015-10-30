@@ -1,0 +1,42 @@
+/*html{
+    background-color: black;
+}
+*/
+.letter-a{
+    position: relative;
+    left: 20px;
+}
+.left{
+     height: 200px;
+     border: 2px solid black;
+     position: absolute;
+     top: 50px;
+     left: 50px;
+     -webkit-transform: rotate(21deg);
+}
+.right{
+     height: 200px;
+     border: 2px solid black;
+     position: absolute;
+     top: 50px;
+     left: 128px;
+     -webkit-transform: rotate(155deg);
+}
+.middle{
+    width: 95px;
+    border: 2px solid black;
+    position: absolute;
+    top: 170px;
+    left: 42px;
+}
+
+
+.left-angle{
+    border-left: thick;
+    border-style: solid;
+    border-left-color: black;
+    height: 200px;
+    width: 2px;
+    position: absolute;
+    top: 280px;
+}
