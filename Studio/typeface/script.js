@@ -1,3 +1,3 @@
-$(".letter-wrapper").hover(function(){
-    $(".letter-a").css("backgroundcolor", "red")
+$("letter-wrapper").hover(function(){
+    $(".letter-wrapper").css("backgroundcolor", "red")
 });
