@@ -7,8 +7,8 @@ $(".button").click(function(){
     }
 });
 
-var img=["pattern-quote.jpg", "pattern2.gif", "patternA.gif", "A.jpg", "A2.jpg", "A3.jpg", "A4.jpg", "A5.jpg"];
-var randomimage = img[Math.floor(Math.random()*8)];
+var img=["pattern-quote.jpg", "pattern2.gif", "patternA.gif", "A.jpg", "A2.jpg", "A3.jpg", "A4.jpg", "A5.jpg","A6.gif", "A7.jpg", "A8.jpg", "A9.gif"];
+var randomimage = img[Math.floor(Math.random()*12)];
 $("body").append("<img src='img/" + randomimage + "'>");
 
 
