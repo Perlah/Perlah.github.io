@@ -11,6 +11,7 @@ body{
     background-color:#CCCCFF;
 }
 p{
+    /*display: inline;*/
     text-align: center;
     text-indent: 50px;
     white-space: pre-wrap;
