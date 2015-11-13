@@ -1,0 +1,30 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+.letter-p{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.left-p{
+    height: 67%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 16%;
+    top: 17%; 
+}
+.right-p{
+    width: 44%;
+    height: 44%;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 14%;
+    left: 16%;
+}

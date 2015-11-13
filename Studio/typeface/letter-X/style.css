@@ -1,0 +1,32 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+
+.letter-x{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.left-x{
+    height: 85%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    -webkit-transform: rotate(-40deg); 
+}
+.right-x{
+    height: 85%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 40%;
+    top: 10%; 
+    -webkit-transform: rotate(40deg); 
+}

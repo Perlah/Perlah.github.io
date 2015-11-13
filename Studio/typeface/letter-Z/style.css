@@ -1,0 +1,39 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+
+.letter-z{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.top-z{
+    width: 67%;
+    height: 1.2%;
+    background-color: red;
+    position: absolute;
+    top: 17%;
+    left: 17%; 
+}
+.bottom-z{
+    width: 67%;
+    height: 1.2%;
+    background-color: red;
+    position: absolute;
+    top: 83%;
+    left: 17%;
+}
+.middle-z{
+    width: 94%;
+    height: 1.2%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    -webkit-transform: rotate(-45deg); 
+}

@@ -1,0 +1,42 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+.letter-y{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.left-y{
+    height: 40%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 37%;
+    top: 10%; 
+    -webkit-transform: rotate(-40deg); 
+}
+.right-y{
+    height: 40%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 63%;
+    top: 10%;
+    -webkit-transform: rotate(40deg); 
+}
+.middle-y{
+    height: 40%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 45%; 
+}

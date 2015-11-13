@@ -1,0 +1,58 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+.letter-g{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.left-g{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 17%;
+    top: 17%; 
+}
+.right-g{
+    width: 1.2%;
+    height: 34%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 84%;
+}
+.top-g{
+    width: 66%;
+    height: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 17%;
+    left: 17%; 
+}
+.bottom-g{
+    width: 67%;
+    height: 1.2%;
+   /* border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 83%;
+    left: 18%;
+}
+.middle-g{
+    width: 34%;
+    height: 1.2%;
+    /*border: 2px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

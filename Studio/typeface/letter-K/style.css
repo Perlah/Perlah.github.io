@@ -1,0 +1,42 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+.letter-k{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px; 
+}
+.left-k{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 16%;
+    top: 17%; 
+}
+.top-k{
+    height: 65%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 1.2%;
+    left: 44%;
+    -webkit-transform: rotate(60deg);
+}
+.bottom-k{
+    height: 65%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    -webkit-transform: rotate(120deg);
+}

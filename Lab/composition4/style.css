@@ -1,0 +1,19 @@
+html{
+    background-color: black;
+}
+.button{
+    width: 90px;
+    height: 25px;
+    border: 2px black;
+    border-radius: 30%;
+    background-color:gray;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+h2{
+    color:white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}

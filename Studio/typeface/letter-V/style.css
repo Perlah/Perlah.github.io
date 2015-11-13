@@ -1,0 +1,32 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+
+.letter-v{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.left-v{
+    height: 75%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 28%;
+    top: 13%;
+    -webkit-transform: rotate(-29deg); 
+}
+.right-v{
+    height: 75%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 64%;
+    top: 13%; 
+    -webkit-transform: rotate(29deg); 
+}

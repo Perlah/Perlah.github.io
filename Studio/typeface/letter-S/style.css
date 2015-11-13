@@ -1,0 +1,53 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+.letter-s{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.top-s{
+    width: 67%;
+    height: 1.2%;
+    background-color: red;
+    position: absolute;
+    top: 17%;
+    left: 17%; 
+}
+.middle-s{
+    width: 67%;
+    height: 1.2%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+.bottom-s{
+    width: 67%;
+    height: 1.2%;
+    background-color: red;
+    position: absolute;
+    top: 83%;
+    left: 17%;
+}
+.left-s{
+    height: 34%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 17%;
+    top: 17%; 
+}
+.right-s{
+    height: 34%;
+    width: 1.2%;
+    background-color: red;
+    position: absolute;
+    left: 83%;
+    top: 50%; 
+}

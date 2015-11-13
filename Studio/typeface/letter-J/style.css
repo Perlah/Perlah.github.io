@@ -1,0 +1,41 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+
+.letter-j{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px; 
+}
+.right-j{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 83%;
+    top: 17%; 
+}
+.left-j{
+    height: 34%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    left: 43%;
+    top: 50%; 
+}
+.bottom-j{
+    width: 41%;
+    height: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: red;
+    position: absolute;
+    top: 83%;
+    left: 43%;
+}

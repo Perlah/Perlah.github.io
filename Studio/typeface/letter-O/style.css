@@ -1,0 +1,23 @@
+.letter-wrapper{
+    display: inline-block;
+    /*width: 200px;
+    height: 200px;
+    background-color: blue;*/
+}
+
+.letter-o{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px; 
+}
+.center-o{
+    width: 75%;
+    height: 75%;
+    border: 2px solid red;
+    border-radius: 75%;
+    position: relative;
+    top: 13%;
+    left: 17%; 
+}
