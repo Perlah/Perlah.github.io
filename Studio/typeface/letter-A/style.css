@@ -147,3 +147,210 @@
     height: 190px;
     background-color: black;
 }*/
+
+
+.letter-w{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    /*background-color: blue;*/
+}
+.left-w{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 17%;
+    top: 17%;
+}
+.right-w{
+    height:67%;
+    width:1.2%;
+    background-color: black;
+    position: absolute;
+    left: 83%;
+    top: 17%; 
+}
+.middle-left-w{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 33%;
+    top: 21%;
+    -webkit-transform: rotate(-150deg); 
+}
+.middle-right-w{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 66%;
+    top: 21%; 
+    -webkit-transform: rotate(150deg); 
+}
+
+.letter-a2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    /*-webkit-transform: rotate(90deg);*/
+}
+.left2{
+     height: 70%;
+     width: 1.2%;
+     background-color: black;
+     /*border: 2px solid black;*/
+     position: absolute;
+     top: 17%;
+     left: 16%;
+     -webkit-transform: rotate(22deg);
+}
+.right2{
+     height: 70%;
+     width: 1.2%;
+     background-color: black;
+     /*border: 2px solid black;*/
+     position: absolute;
+     top: 17%;
+     left: 44%;
+     -webkit-transform: rotate(155deg);
+}
+.middle2{
+    width: 34%;
+    height: 1.2%;
+    background-color: black;
+    /*border: 2px solid black;*/
+    position: absolute;
+    top: 58%;
+    left: 14%;
+}
+
+.letter-r{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.right-r{
+    width: 44%;
+    height: 44%;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 14%;
+    left: 16%;
+}
+.left-r{
+    height: 67%;
+    width: 1.2%;
+   /* border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 16%;
+    top: 17%; 
+}
+.bottom-r{
+    height: 52%;
+    width: 1%;
+    background-color: black;
+    position: absolute;
+    top: 39%;
+    left: 33%;
+    -webkit-transform: rotate(-40deg);  
+}
+
+.letter-h{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.left-h{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 16%;
+    top: 17%; 
+}
+.right-h{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 84%;
+    top: 17%; 
+}
+.middle-h{
+    width: 67%;
+    height: 1.2%;
+    /*border: 2px solid black;*/
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+.letter-o{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.center-o{
+    width: 75%;
+    height: 75%;
+    border: 2px solid black;
+    border-radius: 75%;
+    position: relative;
+    top: 13%;
+    left: 7%; 
+}
+
+.letter-l{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+.left-l{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 17%;
+    top: 17%; 
+}
+.bottom-l{
+    width: 67%;
+    height: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    top: 84%;
+    left: 17%;
+}
+
+
+.Andy{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left:5%;
+    background-color:white;
+}
+.Warhol{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background-color:white;
+}

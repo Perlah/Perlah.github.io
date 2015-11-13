@@ -1,5 +1,5 @@
 body{
-    /*background-color: black;*/
+    background-color: black;
 }
 .letter-wrapper{
     display: inline-block;
@@ -927,7 +927,7 @@ body{
     width: 1010px;
     height: 740px;
     border-style: solid;
-    /*background-color: white;*/
+    background-color: white;
     position: absolute;
     top: 10px;
     left: 15px;
