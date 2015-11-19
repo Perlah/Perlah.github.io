@@ -570,7 +570,6 @@ body{
 .left-r{
     height: 67%;
     width: 1.2%;
-   /* border: 1px solid black;*/
     background-color: black;
     position: absolute;
     left: 16%;
@@ -578,7 +577,7 @@ body{
 }
 .bottom-r{
     height: 52%;
-    width: 1%;
+    width: 1.2%;
     background-color: black;
     position: absolute;
     top: 39%;
@@ -888,7 +887,7 @@ body{
 .zeal{
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 25%;
     top: 5%;
 }
 .from{
