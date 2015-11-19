@@ -3,11 +3,14 @@
 //});
 //
 var hover = false;
+var gif=["pattern2.gif", "patternA.gif", "pattern-A.gif"];
+
 
 $(".letter-a").mouseenter(function() {
     if (hover==false) {
         console.log("HI!");
-        $("body").css("background-image", "url(pattern2.gif)");
+        var randomgif = "url(" + gif[Math.floor(Math.random()*3)] + ")";
+        $("body").css("background-image",randomgif);
         hover=true;
     }
 });

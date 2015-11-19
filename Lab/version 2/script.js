@@ -33,8 +33,8 @@ $(document).ready(function() {
     });
 });
 
-//var symbol=["▙","▝", "▚", "▛", "▜", "▟", "▞"];
-
+//var symbol=["▙","▝", "▚", "▛", "▜", "▟", "▞"]; //make a pattern in the background useing these pieces
+//var randomsymbol = symbol[Math.floor(Math.random()*7)];
 //function myFunction() {
 //    document.body.style.backgroundColor = symbol[Math.floor(Math.random()*7 + 1)];
 //}
@@ -45,6 +45,7 @@ $(".button").mouseenter(function() {
     if (hover==false) {
         console.log("HI!");
         $("body").css("background-image", "url(img/pattern2.gif)");
+       //$("body").css('background',randomColor()); //put the color behind the gif of A's
         hover=true;
     }
 });

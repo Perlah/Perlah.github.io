@@ -1,22 +1,122 @@
 .letter-wrapper{
     display: inline-block;
-    /*width: 200px;
-    height: 200px;
-    background-color: blue;*/
+    width: 100px;
+    height: 100px;
 }
 .letter-i{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
-    top: 10px;
-    left: 10px;
+   display: inline-block;
 }
 .center-i{
     width: 1.2%;
     height: 67%;
-    /*border: 1px solid black;*/
     background-color: red;
     position: absolute;
     top: 17%;
     left: 50%;
+}
+
+.letter-k{
+    width: 100px;
+    height: 100px;
+    position: relative;
+   display: inline-block; 
+}
+.left-k{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 16%;
+    top: 17%; 
+}
+.top-k{
+    height: 65%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    top: 1.2%;
+    left: 44%;
+    -webkit-transform: rotate(60deg);
+}
+.bottom-k{
+    height: 65%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    -webkit-transform: rotate(120deg);
+}
+
+.letter-a{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.left{
+     height: 67%;
+     width: 1%;
+     background-color: black;
+     position: absolute;
+     top: 17%;
+     left: 17%;
+     -webkit-transform: rotate(22deg);
+}
+.right{
+     height: 67%;
+     width: 1.2%;
+     background-color: black;
+     /*border: 2px solid black;*/
+     position: absolute;
+     top: 17%;
+     left: 43%;
+     -webkit-transform: rotate(155deg);
+}
+.middle{
+    width: 34%;
+    height: 1.2%;
+    background-color: black;
+    /*border: 2px solid black;*/
+    position: absolute;
+    top: 58%;
+    left: 14%;
+}
+
+.letter-t{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.top-t{
+    width: 67%;
+    height: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 16%;
+    left: 17%; 
+}
+.middle-t{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+}
+
+.Ikat{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background-color:white;
+    border: 2px solid black;
 }

@@ -10,8 +10,6 @@ body{
 .letter-a{
     width: 90px;
     height: 90px;
-    margin: 0;
-    padding: 0;
     position: relative;
     display: inline-block;
 }
@@ -173,7 +171,7 @@ body{
 }
 .left-e{
     height: 67%;
-    width: 1%;
+    width: 1.2%;
     background-color: black;
     position: absolute;
     left: 17%;

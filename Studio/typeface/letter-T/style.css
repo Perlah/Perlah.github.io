@@ -1,20 +1,18 @@
 .letter-wrapper{
     display: inline-block;
-    /*width: 200px;
-    height: 200px;
-    background-color: blue;*/
+    width: 100px;
+    height: 100px;
 }
 
 .letter-t{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
-    top: 10px;
-    left: 10px;
+    display: inline-block;
 }
 .top-t{
     width: 67%;
-    height: 1.2%;
+    height: 1%;
     background-color: red;
     position: absolute;
     top: 16%;
@@ -27,4 +25,337 @@
     position: absolute;
     top: 17%;
     left: 50%;
+}
+
+.letter-t2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.top-t2{
+    width: 67%;
+    height: 1%;
+    background-color: black;
+    position: absolute;
+    top: 16%;
+    left: 17%; 
+}
+.middle-t2{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+}
+
+.letter-a{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.left{
+     height: 67%;
+     width: 1%;
+     background-color: black;
+     position: absolute;
+     top: 17%;
+     left: 17%;
+     -webkit-transform: rotate(22deg);
+}
+.right{
+     height: 67%;
+     width: 1.2%;
+     background-color: black;
+     /*border: 2px solid black;*/
+     position: absolute;
+     top: 17%;
+     left: 43%;
+     -webkit-transform: rotate(155deg);
+}
+.middle{
+    width: 34%;
+    height: 1.2%;
+    background-color: black;
+    /*border: 2px solid black;*/
+    position: absolute;
+    top: 58%;
+    left: 14%;
+}
+
+.letter-a2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10%;
+    display: inline-block;
+}
+.left2{
+     height: 67%;
+     width: 1%;
+     background-color: black;
+     position: absolute;
+     top: 17%;
+     left: 17%;
+     -webkit-transform: rotate(22deg);
+}
+.right2{
+     height: 67%;
+     width: 1.2%;
+     background-color: black;
+     /*border: 2px solid black;*/
+     position: absolute;
+     top: 17%;
+     left: 43%;
+     -webkit-transform: rotate(155deg);
+}
+.middle2{
+    width: 34%;
+    height: 1.2%;
+    background-color: black;
+    /*border: 2px solid black;*/
+    position: absolute;
+    top: 58%;
+    left: 14%;
+}
+
+.letter-s{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.top-s{
+    width: 67%;
+    height: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 17%;
+    left: 17%; 
+}
+.middle-s{
+    width: 67%;
+    height: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+.bottom-s{
+    width: 67%;
+    height: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 83%;
+    left: 17%;
+}
+.left-s{
+    height: 34%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 17%;
+    top: 17%; 
+}
+.right-s{
+    height: 34%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 83%;
+    top: 50%; 
+}
+
+.letter-u{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.left-u{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 17%;
+    top: 17%; 
+}
+.right-u{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 84%;
+    top: 17%; 
+}
+.bottom-u{
+    width: 68%;
+    height: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 83%;
+    left: 17%;
+}
+
+.letter-o{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.center-o{
+    width: 75%;
+    height: 75%;
+    border: 1px solid black;
+    border-radius: 75%;
+    position: relative;
+    top: 13%;
+    left: 7%; 
+}
+
+.letter-m{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.left-m{
+    height: 67%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    left: 17%;
+    top: 17%; 
+}
+.right-m{
+    height:67%;
+    width: 1%;
+    background-color: black;
+    position: absolute;
+    left: 83%;
+    top: 17%; 
+}
+.middle-right-m{
+    height: 47%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    -webkit-transform: rotate(46deg);
+}
+.middle-left-m{
+    height: 47%;
+    width: 1.2%;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    -webkit-transform: rotate(-46deg);
+}
+
+.letter-i{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.center-i{
+    width: 1.2%;
+    height: 67%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+}
+
+.letter-y{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.left-y{
+    height: 40%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 36%;
+    top: 10%; 
+    -webkit-transform: rotate(-40deg); 
+}
+.right-y{
+    height: 40%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 62%;
+    top: 10%;
+    -webkit-transform: rotate(40deg); 
+}
+.middle-y{
+    height: 40%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 49%;
+    top: 45%; 
+}
+
+.letter-j{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -20%;
+    display: inline-block;
+}
+.right-j{
+    height: 67%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 83%;
+    top: 17%; 
+}
+.left-j{
+    height: 34%;
+    width: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    left: 43%;
+    top: 50%; 
+}
+.bottom-j{
+    width: 41%;
+    height: 1.2%;
+    /*border: 1px solid black;*/
+    background-color: black;
+    position: absolute;
+    top: 83%;
+    left: 43%;
+}
+
+.Tatsuo{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left:5%;
+    background-color:white;
+    border: 2px solid black;
+}
+.Miyajma{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background-color:white;
+    border: 2px solid black;
 }
