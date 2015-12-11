@@ -1,0 +1,34 @@
+.season{
+    position: relative;
+    left: 20%;
+    margin: 2px auto;
+}
+
+.summer{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.winter{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+}
+.fall{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.spring{
+     position: absolute;
+    top: 100px;
+    left: 350px;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 40%;
+    left: -5%;
+}
+
