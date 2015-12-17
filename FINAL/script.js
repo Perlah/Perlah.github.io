@@ -1,90 +1,145 @@
 var summer =["what","waves", "elements", "we", "surface", "swim", "when","ocean", "park", "water", "boat", "people", "dry", "sound", "summer", "play", "forest", "school", "outside", "light", "bright", "sea", "sail", "sun", "electric", "fish", "sand"];
-var spring =["people", "new", "sound", "air", "animal", "food", "plant", "tree", "earth", "life", "grow", "river", "birds", "red", "warm", "beautiful", "outside", "soil", "spring", "garden", "seeds", "insects", "park", "apple", "corn", "create", "rose", "elements"];
-var fall =["time", "people", "down", "sound", "old", "few", "once", "miss", "leave", "color", "piece", "fall", "wood", "fire", "dry", "brown", "cool", "elements"];
-var winter =["time", "long", "below", "hard", "night", "winter", "ice", "snow", "elements"];
+var spring =["people", "new", "sound", "air", "food", "plant", "tree", "earth", "life", "grow", "river", "birds", "red", "warm", "beautiful", "outside", "soil", "spring", "garden", "seeds", "insects", "park", "create", "rose", "elements"];
+var fall =["time", "people", "down", "sound", "old", "few", "miss", "leave", "color", "piece", "fall", "wood", "fire", "dry", "brown", "cool", "elements"];
+var winter =["time", "long", "hard", "night", "winter", "ice", "snow", "elements", "wind", "white", "low", "hours", "black", "covered", "hold", "step", "north", "slowly", "cold", "rest"];
 
-var seasons =[summer, spring, fall, winter]
+var seasons =[summer, spring, fall, winter];
 
+var currentseason = false;
 var click = true;
 
 
-$(".summer").click(function(){
-    if (click==true) {
-    $(".season").hide();    
-    $("p").html(summer[Math.floor(Math.random()*winter.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*winter.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*winter.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*winter.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*winter.length)]);
-    $("p").append(" ");
-    $("body").css("background", "#FFFF00");
+//this allows the sounds to come through
+$(".word").mouseenter(function() {
+    var mysound = "sounds/" + $(this).html() + ".mp4";
+    var audio = new Audio(mysound);
+    audio.play();
+});
+ //getting the image to work and show only when words appear
+$(".symbol1").hide();
+$(".symbol2").hide();
+$(".symbol3").hide();
+$(".symbol4").hide();
+
+$(".summer").click(function(){//easier way
+    $(".word").each(function() {
+    $(this).html(summer[Math.floor(Math.random()*summer.length)]);
+    $(".symbol1").show();
+         if (click==true) {
+                 $(".season").hide();
+             currentseason = summer;
+            
+            if (click==true) {
+                $(".season").hide();
+         
+           }
+         }
+    $("body").css("background", "#ffff4d");
     console.log("hello");
-    }
-})
+  });
+});
 
 $(".spring").click(function(){
-    if (click==true) {
-    $(".season").hide();    
-    $("p").html(fall[Math.floor(Math.random()*fall.length)]);
-    $("p").append(" ");
-    $("p").append(fall[Math.floor(Math.random()*fall.length)]);
-    $("p").append(" ");
-    $("p").append(fall[Math.floor(Math.random()*fall.length)]);
-    $("p").append(" ");
-    $("p").append(fall[Math.floor(Math.random()*fall.length)]);
-    $("p").append(" ");
-    $("p").append(fall[Math.floor(Math.random()*fall.length)]);
-    $("p").append(" ");
+  $(".word").each(function() {
+  $(this).html(spring[Math.floor(Math.random()*spring.length)]);
+  $(".symbol2").show();
+      if (click==true) {
+          $(".season").hide();
+          currentseason = spring;
+   
+       if (click==true) {
+         $(".season").hide();
+    
+       }
+    }
     $("body").css("background", "#ccff99");
-    console.log("hello");
-    }
-})
+    console.log("hey");
+    });
+});
 
+//
 $(".fall").click(function(){
-    if (click==true) {
-    $(".season").hide();    
-    $("p").html(spring[Math.floor(Math.random()*spring.length)]);
-    $("p").append(" ");
-    $("p").append(spring[Math.floor(Math.random()*spring.length)]);
-    $("p").append(" ");
-    $("p").append(spring[Math.floor(Math.random()*spring.length)]);
-    $("p").append(" ");
-    $("p").append(spring[Math.floor(Math.random()*spring.length)]);
-    $("p").append(" ");
-    $("p").append(spring[Math.floor(Math.random()*spring.length)]);
-    $("p").append(" ");
-    $("body").css("background", "#ff8000");
-    console.log("hello");
-    }
-})
+    currentseason = fall;
+    $(".word").each(function() {
+    $(this).html(fall[Math.floor(Math.random()*fall.length)]);
+    $(".symbol3").show();
+        if (click==true) {
+              $(".season").hide();
+              currentseason = spring;
+    
+         if (click==true) {
+             $(".season").hide();
+    
+             }
+          }
+        $("body").css("background", "#ff8000");
+        console.log("hi");
+    });
+});
 
 $(".winter").click(function(){
-    if (click==true) {
-    $(".season").hide();    
-    $("p").html(summer[Math.floor(Math.random()*summer.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*summer.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*summer.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*summer.length)]);
-    $("p").append(" ");
-    $("p").append(summer[Math.floor(Math.random()*summer.length)]);
-    $("p").append(" ");
-    $("body").css("background", "#99d6ff");
-    console.log("hello");
+    currentseason = winter;
+    $(".word").each(function() {
+    $(this).html(winter[Math.floor(Math.random()*winter.length)]);
+    $(".symbol4").show();
+        if (click==true) {
+              $(".season").hide();
+              currentseason = spring;
+    
+         if (click==true) {
+             $(".season").hide();
+    
+          }
+        }
+        $("body").css("background", "#99d6ff");
+        console.log("hola");
+    });  
+});
+//
+////document.getElementById("birds").play();
+//   
+$("body").keypress(function(e) {
+    console.log(e);
+    if(e.keyCode == 32) {
+        
+        currentseason = seasons[Math.floor(Math.random()*seasons.length)]; //an array within an array
+        
+       console.log("you hit spacebar");
+         
+          if (currentseason == summer) {
+              $("body").css("background", "#ffff4d");
+              $(".symbol1").show();
+              $(".symbol2").hide();
+              $(".symbol3").hide();
+              $(".symbol4").hide();
+          }
+          if (currentseason == spring) {
+              $("body").css("background", "#ccff99");
+              $(".symbol1").hide();
+              $(".symbol2").show();
+              $(".symbol3").hide();
+              $(".symbol4").hide();
+          }
+          if (currentseason == fall) {
+              $("body").css("background", "#ff8000");
+              $(".symbol1").hide();
+              $(".symbol2").hide();
+              $(".symbol3").show();
+              $(".symbol4").hide();
+          }
+          if (currentseason == winter) {
+              $("body").css("background", "#99d6ff");
+              $(".symbol1").hide();
+              $(".symbol2").hide();
+              $(".symbol3").hide();
+              $(".symbol4").show();
+          }
     }
-})
-   
-$(document).ready(function(){
-    $("body").keydown(function() {
-     $("p").append(seasons[Math.floor(Math.random()*seasons.length)]);
-    $("p").append(" ");
-    console.log("season");  //how do I get an array to work within an array?
-    })
-})
+    
+    console.log("season");  //how do I get an array to work within an array?^^^
 
+     $(".word").each(function() {
+  $(this).html(currentseason[Math.floor(Math.random()*currentseason.length)])
+});
+
+});
