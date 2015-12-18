@@ -1,7 +1,7 @@
-var summer =["what","waves", "elements", "we", "surface", "swim", "when","ocean", "park", "water", "boat", "people", "dry", "sound", "summer", "play", "forest", "school", "outside", "light", "bright", "sea", "sail", "sun", "electric", "fish", "sand"];
-var spring =["people", "new", "sound", "air", "food", "plant", "tree", "earth", "life", "grow", "river", "birds", "red", "warm", "beautiful", "outside", "soil", "spring", "garden", "seeds", "insects", "park", "create", "rose", "elements"];
-var fall =["time", "people", "down", "sound", "old", "few", "miss", "leave", "color", "piece", "fall", "wood", "fire", "dry", "brown", "cool", "elements"];
-var winter =["time", "long", "hard", "night", "winter", "ice", "snow", "elements", "wind", "white", "low", "hours", "black", "covered", "hold", "step", "north", "slowly", "cold", "rest"];
+var summer =["what","waves", "elements", "we", "swim", "when","ocean", "park", "water", "boat", "people", "dry", "sound", "summer", "play", "forest", "school", "outside", "light", "bright", "sea", "sail", "sun", "electric", "fish", "sand", "fire"];
+var spring =["people", "new", "sound", "air", "food", "plant", "tree", "earth", "life", "grow", "river", "birds", "red", "warm", "beautiful", "outside", "soil", "spring", "garden", "seeds", "insects", "park", "create", "rose", "elements", "we"];
+var fall =["time", "people", "down", "sound", "old", "few", "miss", "leave", "color", "piece", "fall", "wood", "fire", "dry", "brown", "cool", "elements", "we", "outside", "what"];
+var winter =["time", "long", "hard", "night", "winter", "ice", "snow", "elements", "wind", "white", "low", "hours", "black", "covered", "hold", "step", "north", "slowly", "cold", "rest", "we", "create", "people","when","what"];
 
 var seasons =[summer, spring, fall, winter];
 
