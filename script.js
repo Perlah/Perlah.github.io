@@ -9,7 +9,9 @@ $("#fav").mouseenter(function(){
     $("#studio").show();
     $("#lab").show();
     $("#work").hide();
+    $("#stuff").hide();
     console.log("works")
+    $("body").css('background', '#ffffff')
 });
 
 $("#studio").mouseenter(function(){
