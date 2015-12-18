@@ -21,12 +21,6 @@ $(".symbol2").hide();
 $(".symbol3").hide();
 $(".symbol4").hide();
 
-$(".button").click(function(){
-    if( click == true){
-        location.reload();
-        console.log("refresh");
-    }
-})
 
 
 $(".summer").click(function(){//easier way
