@@ -1,27 +1,33 @@
 h1{
     font-size: 100px;
-    color: white;
+    text-align: left;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 h2{
-    color: white;
     font-size: 40px;
-    
+    text-align: left;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+    display: block;
 }
 body{
     font-family:Indie Flower;
     font-size: 15px;
-    text-align: center;
-    background-color: #000d1a;
+    text-align: left;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 p{
-    color: White;
+    color: black;
 }
 
-a:link{ color: white;}
-a:visited{color:red;}
-a:hover{color: blue;
-    background-color: #E06666;
+a:link{ color: black;}
+a:visited{color:black;}
+a:hover{color: black;
+    background-color: #00c5ff6;
 }
 a:active{color: green;}
 
@@ -29,3 +35,54 @@ a:active{color: green;}
 .non-white-link:visited{color: black;}
 .non-white-link:hover{color: white;}
 .non-white-link:active{color: yellow;}
+
+img{
+    position: absolute;
+    top: 30%;
+    left: 36%;
+}
+
+#sound{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+#lab{
+    position: absolute;
+    top: 15%;
+    left: 71%;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+    color: #0066cc;
+}
+#studio{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+    color: #0066cc;
+}
+#work{
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+    color: #0066cc;
+}
+section{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    color: #0066cc;
+}
+
+#red{
+    position: absolute;
+    top: 300px;
+    left: 70%;
+}
