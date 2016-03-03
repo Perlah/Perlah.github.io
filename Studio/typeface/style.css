@@ -12,10 +12,11 @@ body{
     height: 90px;
     position: relative;
     display: inline-block;
+    left: 6px;
 }
 .left{
      height: 67%;
-     width: 1%;
+     width: 1px;
      background-color: black;
      position: absolute;
      top: 17%;
@@ -557,6 +558,7 @@ body{
     height: 90px;
     position: relative;
     display: inline-block;
+    left: 8px;
 }
 .right-r{
     width: 44%;
@@ -847,47 +849,48 @@ body{
     -webkit-transform: rotate(-45deg); 
 }
 
+/*words*/
 
 .the{
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 5px;
     top: 5%;
 }
 .job{
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 5px;
     top: 5%;
 }
 .require{
     display: inline-block;
     position: relative;
-    left: 10%;
+    left: 5px;
     top: 5%;
 }
 .extra{
     display: inline-block;
     position: relative;
-    left: 3%;
+    left: 2%;
     top: 5%;
 }
 .pluck{
     display: inline-block;
     position: relative;
-    left: 7%;
+    left: 6%;
     top: 5%;
 }
 .and{
     display: inline-block;
     position: relative;
-    left: 15%;
+    left: 2%;
     top: 5%;
 }
 .zeal{
     display: inline-block;
     position: relative;
-    left: 25%;
+    left: 5%;
     top: 5%;
 }
 .from{
@@ -899,29 +902,34 @@ body{
 .every{
     display: inline-block;
     position: relative;
-    left: 12%;
+    left: 2%;
     top: 5%;
 }
 .young{
     display: inline-block;
     position: relative;
     top: 5%;
+    left: 5%;
 }
 .wage{
     display: inline-block;
     position: relative;
-    left: 5%;
+    left: 2%;
     top: 5%;
 }
 .earner{
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 6%;
     top: 5%;
 }
 
+#statement{
+    position: relative;
+    top: 15px;
+}
 .box{
-    width: 1010px;
+    width: 1300px;
     height: 740px;
     border-style: solid;
     background-color: white;
